@@ -3,7 +3,7 @@ function superbowlWin(arrayOfObjects) {
   let newArr = arrayOfObjects.forEach((object) => {
     if (object.result.charAt(0) === "W") {
       console.log(object);
-      choosenResult = object;
+      choosenResult = object.year;
     }
   });
   return choosenResult;
